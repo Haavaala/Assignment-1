@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --dirt-color: #F7B267;
+  --header-color: #F27059;
+  --black-color: black;
+  --white-color: white;
+}
+
+/*The header*/
+header {
+  background: var(--header-color);
+  min-height: 25vh;
+  min-width: 100%;
+  position: relative;
+  margin-top: -10px;
+}
+
+/* the text in the header*/
+.tip {
+  text-align: center;
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-family: "VT323", monospace;
+  font-weight: bold;
+  color: var(--black-color);
+}
+
+main {
+  background-color: var(--dirt-color);
+  min-height: 100vh;
+  margin-top: -50px;
+}
+
+button {
+  background-color: silver;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 20px 12px 14px 3px rgba(0, 0, 0, 0.48);
+          box-shadow: 20px 12px 14px 3px rgba(0, 0, 0, 0.48);
+  -webkit-transform: scale(1.6);
+          transform: scale(1.6);
+  cursor: pointer;
+  width: 100px;
+  border-radius: 20px;
+  height: 30px;
+}
+
+button:active {
+  bottom: -3%;
+}
+
+button:hover {
+  background-color: gold;
+}
+
+.Test {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 50px;
+  text-shadow: 3px 5px #584232;
+  font-weight: bold;
+  font-family: 'font-family: IBM Plex Sans Hebrew', sans-serif;
+}
+
+p {
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+/*code for the footer*/
+footer {
+  background: var(--black-color);
+  min-height: 20vh;
+  min-width: 100%;
+  bottom: 0%;
+  position: relative;
+  margin-top: -20px;
+}
+
+footer .bunn {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "VT323", monospace;
+  color: var(--white-color);
+  margin-top: 20px;
+  position: relative;
+}
+/*# sourceMappingURL=style.css.map */
