@@ -42,6 +42,7 @@ main {
   margin-bottom: -90px;
 }
 
+/*the button to get the fun facts*/
 button {
   background-color: var(--button-color);
   position: relative;
