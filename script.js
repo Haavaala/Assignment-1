@@ -1,4 +1,4 @@
-console.log('yeet');
+console.log('task');
 
 
 const arrayOfFacts = [
