@@ -35,6 +35,39 @@ header {
   margin-left: 35%;
 }
 
+.wholetimer{
+  margin: 10px;
+  float: left;
+  position: absolute;
+}
+
+.bannerclock{
+  text-transform: uppercase;
+  background: white;
+  color: white;
+  height: 20px;
+  width: 200px;
+  margin: 0 auto;
+  border-bottom: 10px solid #75665b;
+  font-size: 20px;
+  text-align: center;
+}
+
+.bannerclock span{
+  color: grey;
+}
+
+#clock{
+  background: var(--black-color);
+  font-size: 50px;
+  color: white;
+  height: 70px;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 10px solid #75665b;
+  
+}
 
 main{
   background-color: var(--dirt-color);
